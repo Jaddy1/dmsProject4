@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Gucci</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
   </head>
   <body>
@@ -13,13 +14,13 @@
       <a class="nav-link" href="brand3.html" tabindex="-1">Off-White</a>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid gucci-background">
       <section>
         <h1>Gucci</h1>
         <img src="images/gucci-logo.png" alt="Gucci Logo">
         <p>Influential, innovative and progressive, Gucci is reinventing a wholly modern approach to fashion.</p>
       </section>
-      <main>
+      <main class="off-white">
         <h2>History</h2>
 
         <h3>Origin Story</h3>
@@ -40,15 +41,41 @@
 
       <aside class="">
         <h2>Products</h2>
-        <p>Product Type</p>
-        <img src="images/gucci-products.jpg" alt="Gucci Products">
-        <p>Handbags Shoes, wallets</p>
+        <strong>Gucci sells handbags, shoes, wallets, and other products</strong>
+        <div class="accordion" id="accordians">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Products
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="images/gucci-products.jpg" alt="Gucci Products">
+              </div>
+            </div>
+          </div>
+        </div>
       </aside>
 
       <article class="">
         <h2>Collaboration(s)</h2>
-        <img src="images/dapperdan.jpg" alt="Dapper Dan Collab">
-        <p>Introducing the collection of ready-to-wear and accessories that takes its cue from the Dapper Dan archive created with the House’s refined materials. Featuring a new yellow Gucci logo, the pieces were shot by Ari Marcopoulos on young faces from Harlem.</p>
+
+        <div class="accordion" id="accordians">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Collaborations
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="images/dapperdan.jpg" alt="Dapper Dan Collab">
+                <p>Introducing the collection of ready-to-wear and accessories that takes its cue from the Dapper Dan archive created with the House’s refined materials. Featuring a new yellow Gucci logo, the pieces were shot by Ari Marcopoulos on young faces from Harlem.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </article>
       <p><a href="https://en.wikipedia.org/wiki/Gucci">Information collected from wikipedia</a></p>
     </div>

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Louis Vuitton</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
   </head>
   <body>
@@ -13,13 +14,13 @@
       <a class="nav-link" href="brand3.html" tabindex="-1">Off-White</a>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid lv-background">
       <section>
         <h1>Louis Vuitton</h1>
         <img src="images/LV-Logo.png" alt="Louis Vuitton Logo">
         <p>Louis Vuitton was a French box-maker and packer who founded the luxury brand of the same name over 150 years ago.</p>
       </section>
-      <main>
+      <main class="off-white">
         <h2>History</h2>
 
         <h3>Origin Story</h3>
@@ -38,19 +39,60 @@
         </p>
       </main>
 
-      <aside class="">
+
+      <aside class="card">
         <h2>Products</h2>
-        <p>Luxury Bags</p>
-        <img src="images/LV-bags.png" alt="Louis Vuitton bags">
+        <strong>Louis Vuitton sells luxury bags, wallets, and other products</strong>
+        <div class="accordion" id="accordians">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Products
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="images/LV-bags.png" alt="Louis Vuitton bags">
+                <img src="images/lv-prod.jpg" alt="Louis Vuitton products">
+              </div>
+            </div>
+          </div>
+        </div
       </aside>
 
-      <article class="">
-        <h2>Collaborations</h2>
-        <img src="images/lv-takashijpg.jpg" alt="Louis Vuitton x Takashi Murikami Collab">
-        <p>Takashi Murakami created special edition collections, such as the Monogramouflage Collection, which debuted in 2008, and a previous collection, released in 2002, which featured some of his artwork. The creations were "painted" over the traditional monogram canvas, which brought a radical new twist to the timeless design.</p>
-        <img src="images/LV-supreme.jpg" alt="Louis Vuitton x Supreme Collab">
-        <p>In 2017 Louis Vuitton collaborated with American streetwear brand Supreme, releasing products in various pop-up stores in major cities around the world. Items feature the Louis Vuitton monogram canvas mixed with the Supreme box-logo design.</p>
+      <article class="card">
+        <h2 class="card-header">Collaborations</h2>
+
+        <div class="accordion" id="accordians">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Collaboration 1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="images/lv-takashijpg.jpg" alt="Louis Vuitton x Takashi Murikami Collab">
+                <p>Takashi Murakami created special edition collections, such as the Monogramouflage Collection, which debuted in 2008, and a previous collection, released in 2002, which featured some of his artwork. The creations were "painted" over the traditional monogram canvas, which brought a radical new twist to the timeless design.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Collaboration 2
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="images/LV-supreme.jpg" alt="Louis Vuitton x Supreme Collab">
+                <p>In 2017 Louis Vuitton collaborated with American streetwear brand Supreme, releasing products in various pop-up stores in major cities around the world. Items feature the Louis Vuitton monogram canvas mixed with the Supreme box-logo design.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </article>
+
       <p><a href="https://en.wikipedia.org/wiki/Louis_Vuitton">Information collected from wikipedia</a></p>
     </div>
 

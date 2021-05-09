@@ -1,0 +1,16 @@
+.gucci-background{
+  background-image: url("../images/gucci-background.jpg");
+}
+
+.lv-background{
+  background-image: url("../images/lv-background.jpg");
+}
+
+.ow-background{
+  background-image: url("../images/OW-background.jpg");
+  /* color: red; */
+}
+
+.off-white{
+  background-color: #FAF9F6;
+}
